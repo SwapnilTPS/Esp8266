@@ -75,12 +75,12 @@ String SendHTML(float Temperaturestat,float Humiditystat){
   ptr +="</head>\n";
   ptr +="<body>\n";
   ptr +="<div id=\"webpage\">\n";
-  ptr +="<h1>ESP8266 NodeMCU Weather Report</h1>\n";
+  ptr +="<h1>Weather Display Station</h1>\n";
   
-  ptr +="<p>Temperature: ";
+  ptr +="<p>Temperature is: ";
   ptr +=(int)Temperaturestat;
   ptr +="°C</p>";
-  ptr +="<p>Humidity: ";
+  ptr +="<p>Humidity is: ";
   ptr +=(int)Humiditystat;
   ptr +="%</p>";
   
