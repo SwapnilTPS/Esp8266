@@ -9,7 +9,7 @@ const char* password = "password";
 ESP8266WebServer server(80);
 
 // DHT Sensor
-uint8_t DHTPin = D8; 
+uint8_t DHTPin = D9; 
                
 // Initialize DHT sensor.
 DHT dht(DHTPin, DHTTYPE);                
